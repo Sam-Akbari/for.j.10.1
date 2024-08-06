@@ -1,7 +1,7 @@
 from random import choice as c#رندوم
 
 def hangman():#تابع
-    words = ["google","samsung","microsoft","intel","apple","nasa","vivo","meta","open AI","LG"]#نام ها
+    words = ["google","samsung","microsoft","intel","apple","nasa","vivo","meta","open AI","LG","sony"]#نام ها
     word = c(words)#متغیر کلمه
     lenalfabet = ["_"] * len(word)#تعداد حروف های کلمه
     attempts = len(word)#شمارش حروف ها
